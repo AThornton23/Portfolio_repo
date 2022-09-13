@@ -25,7 +25,10 @@ html {
   color: black;
   z-index: 1;
   transition: .4s ease-out;
-
+  .logo{
+    font-size: 10px;
+    margin-left: 5px;
+  }
   a {
       text-decoration: none;
       color: inherit;
@@ -988,8 +991,14 @@ footer .container {
     transition: opacity 0.75s;
   }
   
-  
-  
+  .image_overlay > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
+  }
+  .image_overlay2 > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
+  }
   .projects {
     
     margin-top: 0;
@@ -1157,7 +1166,14 @@ footer .container {
     opacity: 1;
   }
   
-  
+  .image_overlay > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
+  }
+  .image_overlay2 > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
+  }
   
   .projects {
    
@@ -1355,10 +1371,17 @@ footer .container {
     opacity: 1;
     transition: opacity 0.75s;
   }
-  
-  .image_overlay2:hover {
-    opacity: 1;
+
+  .image_overlay > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
   }
+  .image_overlay2 > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
+  }
+  
+  
   
   .image_overlay2:hover > * {
     transform: translateY(0);
@@ -1424,7 +1447,7 @@ footer .container {
   }
   
   .project_title {
-    margin-top: 0.5em;
+    margin-top: 10px;
     font-size: 20px;
     text-align: center;
   }
@@ -1445,6 +1468,15 @@ footer .container {
     margin-top: 10%;
     margin-right: 20%;
     margin-bottom: 10%;
+  }
+
+  .image_overlay > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
+  }
+  .image_overlay2 > * {
+    transform: translateY(0);
+    transition: transform 2.5s;
   }
   
   .image_2 {
