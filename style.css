@@ -873,7 +873,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
   }
   .projects a {
     box-sizing: border-box;
@@ -942,7 +942,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.75s;
   }
   .projects {
@@ -1076,7 +1076,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
   }
   .projects {
     margin-top: 0;
@@ -1117,7 +1117,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.75s;
   }
   .projects a {
@@ -1189,7 +1189,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.75s;
   }
   .projects {
@@ -1232,7 +1232,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.75s;
   }
   .image_overlay2:hover {
@@ -1282,7 +1282,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.75s;
   }
   .projects {
@@ -1325,7 +1325,7 @@ footer .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    opacity: 0;
+    opacity: 1;
     transition: opacity 0.75s;
   }
   .projects a {
