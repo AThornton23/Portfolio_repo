@@ -22,7 +22,7 @@ html {
   height: 65px;
   width: 100vw;
   padding: 0 10vw;
-  color: black;
+  color: rgba(0, 0, 0, 0);
   z-index: 1;
   transition: .4s ease-out;
   .logo{
@@ -342,22 +342,7 @@ body {
   background-size: cover;
 }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
+
 .hh3 {
   text-align: center;
   margin-top: 8em;
@@ -401,12 +386,6 @@ body {
   position: absolute;
   left: 50%;
   margin-left: -3px;
-}
-
-
-
-.deleteMe {
-  padding-bottom: 500px;
 }
 
 .name {
@@ -661,24 +640,7 @@ body {
 
 
 
-div.scrollmenu {
-  background-color: rgb(12, 84, 185);
-  padding-left: 2em;
-  padding-right: 2em;
-  font-size: 200px;
-}
 
-div.scrollmenu i {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-div.scrollmenu img {
-  height: 200px;
-}
 
 footer * {
   box-sizing: border-box;
