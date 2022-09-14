@@ -729,6 +729,7 @@ footer .container {
 
 .footer3 .brand {
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .footer3 .menu li {
@@ -1122,11 +1123,7 @@ footer .container {
     margin-left: 20%;
   }
   
-  .image_ {
-    display: block;
-    width: 100%;
-    transition: 1s;
-  }
+  
   
   .image_overlay {
     position: absolute;
@@ -1157,9 +1154,7 @@ footer .container {
     padding: 1em;
   }
   
-  .projects h1 {
-    text-align: center;
-  }
+  
   
   .project_title {
     margin-top: 0.5em;
@@ -1186,11 +1181,7 @@ footer .container {
     margin-bottom: 10%;
   }
   
-  .image_2 {
-    display: block;
-    width: 100%;
-    transition: 1s;
-  }
+  
   
   .image_overlay2 {
     position: absolute;
