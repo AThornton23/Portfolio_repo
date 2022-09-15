@@ -100,7 +100,7 @@ html {
 
       &.scrolled {
           height: 50px;
-          background: rgba(0, 0, 0, 0.9);
+          background: rgba(0, 0, 0, 0.949);
           color: white;
 
           .menu-icon {
@@ -149,7 +149,7 @@ html {
           height: 100vh;
           font-size: 2rem;
           color: #fff;
-          background: #0303039e;
+          background: #030303b9;
           transition:
               opacity .8s .5s,
               clip-path 1s .5s;
@@ -361,6 +361,7 @@ body {
 
 .skills h1{
   margin-top: 3em;
+  letter-spacing: 2px;
   margin-bottom: 50px;
   font-size: 7.2rem;
   text-align: center;
@@ -412,7 +413,8 @@ body {
 .about-info {
   margin-top: 0;
   padding-top: 6.2rem;
-  padding-bottom: 1.5rem;
+  
+  
   margin-bottom: 0;
   
   background: rgba(0, 0, 0, 0.724);
@@ -420,6 +422,7 @@ body {
 
 .about-info h1 {
   font-size: 7.2rem;
+  letter-spacing: 2px;
   text-align: center;
 }
 

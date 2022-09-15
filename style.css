@@ -79,7 +79,7 @@ html {
 }
 .main-header.scrolled {
   height: 50px;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.949);
   color: white;
 }
 .main-header.scrolled .menu-icon__line, .main-header.scrolled .menu-icon__line::before, .main-header.scrolled .menu-icon__line::after {
@@ -118,7 +118,7 @@ html {
     height: 100vh;
     font-size: 2rem;
     color: #fff;
-    background: rgba(3, 3, 3, 0.6196078431);
+    background: rgba(3, 3, 3, 0.7254901961);
     transition: opacity 0.8s 0.5s, -webkit-clip-path 1s 0.5s;
     transition: opacity 0.8s 0.5s, clip-path 1s 0.5s;
     transition: opacity 0.8s 0.5s, clip-path 1s 0.5s, -webkit-clip-path 1s 0.5s;
@@ -367,6 +367,7 @@ body {
 
 .skills h1 {
   margin-top: 3em;
+  letter-spacing: 2px;
   margin-bottom: 50px;
   font-size: 7.2rem;
   text-align: center;
@@ -419,13 +420,13 @@ body {
 .about-info {
   margin-top: 0;
   padding-top: 6.2rem;
-  padding-bottom: 1.5rem;
   margin-bottom: 0;
   background: rgba(0, 0, 0, 0.724);
 }
 
 .about-info h1 {
   font-size: 7.2rem;
+  letter-spacing: 2px;
   text-align: center;
 }
 
