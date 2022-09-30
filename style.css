@@ -341,6 +341,7 @@ h2, p {
 
 body {
   background-image: url("images/giphy.gif");
+  background-color: black;
   min-height: 100%;
   position: relative;
   margin: 0;
