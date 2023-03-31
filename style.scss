@@ -2,6 +2,7 @@
 html {
   scroll-behavior: smooth;
   color: #ffffff;
+  
 }
 
 
@@ -100,7 +101,7 @@ html {
 
       &.scrolled {
           height: 50px;
-          background: rgba(0, 0, 0, 0.9);
+          background: rgba(0, 0, 0, 0.949);
           color: white;
 
           .menu-icon {
@@ -149,7 +150,7 @@ html {
           height: 100vh;
           font-size: 2rem;
           color: #fff;
-          background: #0303039e;
+          background: #030303b9;
           transition:
               opacity .8s .5s,
               clip-path 1s .5s;
@@ -355,12 +356,13 @@ body {
 
 .skills{
   line-height: 30px;
-  margin-top: 4em;
+  
   letter-spacing: 5px;
 }
 
 .skills h1{
-  margin-top: 3em;
+  padding-top: 2em;
+  letter-spacing: 2px;
   margin-bottom: 50px;
   font-size: 7.2rem;
   text-align: center;
@@ -388,8 +390,6 @@ body {
   margin-left: -3px;
 }
 
-
-
 .name {
   font-size: 6em;
   margin-bottom: 0;
@@ -413,15 +413,15 @@ body {
 
 .about-info {
   margin-top: 0;
-  padding-top: 6.2rem;
-  padding-bottom: 1.5rem;
-  margin-bottom: 0;
+  padding-top: 3rem;
+  
   
   background: rgba(0, 0, 0, 0.724);
 }
 
 .about-info h1 {
   font-size: 7.2rem;
+  letter-spacing: 2px;
   text-align: center;
 }
 
@@ -430,7 +430,7 @@ body {
   margin-right: auto;
   width: 75%;
   text-align: center;
-  margin-bottom: 10px;
+  padding-bottom: 5em;
   font-size: 2.4rem;
 }
 
@@ -731,6 +731,7 @@ footer .container {
 
 .footer3 .brand {
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .footer3 .menu li {
@@ -1124,11 +1125,7 @@ footer .container {
     margin-left: 20%;
   }
   
-  .image_ {
-    display: block;
-    width: 100%;
-    transition: 1s;
-  }
+  
   
   .image_overlay {
     position: absolute;
@@ -1159,9 +1156,7 @@ footer .container {
     padding: 1em;
   }
   
-  .projects h1 {
-    text-align: center;
-  }
+  
   
   .project_title {
     margin-top: 0.5em;
@@ -1188,11 +1183,7 @@ footer .container {
     margin-bottom: 10%;
   }
   
-  .image_2 {
-    display: block;
-    width: 100%;
-    transition: 1s;
-  }
+  
   
   .image_overlay2 {
     position: absolute;
@@ -1799,8 +1790,6 @@ footer .container {
     text-align: center;
   }
   
-  
-  
   .image2 {
     position: relative;
     width: 100%;
@@ -1856,7 +1845,6 @@ footer .container {
   }
 
 }
-
 
 @media only screen and (max-width:436px){
   .container1{
