@@ -157,6 +157,9 @@ html {
   .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(4) {
     transition-delay: 1s;
   }
+  .main-header .menu-btn:checked ~ .nav-links .nav-link:nth-of-type(5) {
+    transition-delay: 1.1s;
+  }
   .main-header .menu-btn:checked ~ .menu-icon {
     border-radius: 50%;
     -webkit-animation: pulse 1s;
@@ -341,6 +344,7 @@ h2, p {
 
 body {
   background-image: url("images/giphy.gif");
+  background-color: black;
   min-height: 100%;
   position: relative;
   margin: 0;
